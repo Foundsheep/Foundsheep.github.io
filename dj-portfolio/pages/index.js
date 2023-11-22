@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
@@ -11,7 +12,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          DJ Moon <a href="https://nextjs.org">Portfolio!</a>
+          DJ Moon <Link href="/posts/first-post">First Post!</Link>
         </h1>
 
         <p className={styles.description}>

@@ -1,14 +1,28 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
+import Menu from '../components/menu';
 import styles from '../styles/Home.module.css';
 
+// const ProfileImage = function profileImage() {
+//   <Image
+//     src='/public/profile_crop.jpg'
+//     height={200}
+//     width={200}
+//     alt="DJ Moon"
+// };
+
 export default function Home() {
+
+  
   return (
     <div className={styles.container}>
       <Head>
         <title>DJ Moon</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Menu />
 
       <main>
         <h1 className={styles.title}>

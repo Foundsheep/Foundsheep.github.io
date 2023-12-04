@@ -1,66 +1,14 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
-import styles from './layout.module.css';
+import Head from "next/head";
+import Link from "next/link";
+import Menu from "../components/menu";
 
-const name = 'DJ Moon';
-export const siteTitle = 'DJ Moon portfolio'
-
-export default function Layout({children, home}) {
+export default function Layout() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <link rel='icon' href='/favicon.ico' />
-        <meta
-          name='description'
-          content='About DJ Moon'
-        />
-        <meta
-          property='og:image'
-        />
-        <meta name='og:title' content={siteTitle} />
-        <meta name='twitter:card' content='summary_lage_image' />
+      <title>DJ Moon's web page</title>
       </Head>
-      <header className={styles.header}>
-        {home ? (
-          <>
-            <Image
-              priority
-              src='/images/profile_crop.jpg'
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt=""
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <Image
-                priority
-                src="/images/profile_crop.jpg"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt=""
-              />
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/"> Back To Home</Link>
-        </div>
-      )}
-    </div>
-  );
+      <Menu />
+    </>
+  )
 }

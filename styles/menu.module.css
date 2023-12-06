@@ -1,0 +1,11 @@
+.menuItem {
+  padding: 0 12px 0 0;
+  font-size: 20px;
+  text-decoration-line: none;
+  font-weight: 600;
+}
+
+.menuImage {
+  border-radius: 99px;
+  padding: 0 12px 0 0;
+}

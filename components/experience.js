@@ -1,8 +1,18 @@
-export default function Experience() {
+export default function Experience(date) {
+  const array = ["AAA", "BBB", "CCC"]
+  
   return (
-    <section>
-      <h3>experience example</h3>
-      <br />
-    </section>
+    <>
+      <div>
+        <div>date</div>
+      </div>
+      <div>
+        <ul>
+          {array.map((line) => (
+            <li>{line}</li>
+          ))}
+        </ul>
+      </div>
+    </>
   )
 }

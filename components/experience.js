@@ -1,17 +1,20 @@
-export default function Experience(date) {
-  const array = ["AAA", "BBB", "CCC"]
-  
+import cvStyles from "../styles/cv.module.css";
+
+export default function Experience({ props }) {  
+
   return (
     <>
-      <div>
-        <div>date</div>
-      </div>
-      <div>
-        <ul>
-          {array.map((line) => (
-            <li>{line}</li>
-          ))}
-        </ul>
+      <div className={cvStyles.row}>
+        <br></br>
+        <div className={ cvStyles.date}>{ props.date }</div>
+        <div className={ cvStyles.cvItem }>          
+          <h5>{props.title}</h5>
+          <ul>
+            { props.info.map((line) => (
+              <li className={cvStyles.itemLine}>{line}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </>
   )

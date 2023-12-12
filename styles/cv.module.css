@@ -1,0 +1,19 @@
+.vertical {
+  border-left: 1px;
+  height: 200px;
+}
+
+.date {
+  margin-right: 2rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.row {
+  display: flex;
+}
+
+.itemLine {
+  color:grey;
+}
+

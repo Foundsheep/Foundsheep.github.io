@@ -14,6 +14,27 @@ export default function CV() {
           alt='reward'
         />
       </div>
+      <h2>Work Experience</h2>
+      <Experience 
+        props={
+          {
+            date: "2022-07-04 ~ present", 
+            title: "PublicAI",
+            info: ["first line", "second line", "third line", "fourth line"]
+          }
+        }
+      />
+      <Experience 
+        props={
+          {
+            date: "2022-07-04 ~ present", 
+            title: "PublicAI",
+            info: ["first line", "second line", "third line"]
+          }
+        }
+      />
+      {/* <Experience />
+      <h2>Education</h2>
       <Experience />
       <Experience />
       <Experience />

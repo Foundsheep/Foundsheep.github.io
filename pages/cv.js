@@ -18,7 +18,16 @@ export default function CV() {
       <Experience 
         props={
           {
-            date: "2022-07 ~ present", 
+            date: "2024-03 ~ present",
+            title: "씨에스아이비젼",
+            info: ["first line", "second line", "third line"]
+          }
+        }
+      />
+      <Experience 
+        props={
+          {
+            date: "2022-07 ~ 2024-03", 
             title: "PublicAI",
             projects: [
               {

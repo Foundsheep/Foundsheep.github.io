@@ -1,10 +1,12 @@
 import Link from "next/link";
 import Image from 'next/image';
 import Experience from "../components/experience";
+import Menu from "../components/menu";
 
 export default function CV() {
   return (
     <>
+      <Menu></Menu>
       <div>
         <h1>이런 상 받아보신 적 있나요?</h1>
         <Image

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DJ Moon's web page</title>
+        <title>DJ Moon</title>
       </Head>
       <Menu />
         <div>

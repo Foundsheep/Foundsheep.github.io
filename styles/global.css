@@ -12,3 +12,8 @@ head {
   font-family:  RalewayVariable,Raleway,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
   font-feature-settings: normal;;
 }
+
+hr {
+  margin-right: 20%;
+  color: lightgrey;
+}

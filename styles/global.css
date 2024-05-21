@@ -17,3 +17,7 @@ hr {
   margin-right: 20%;
   color: lightgrey;
 }
+
+Menu {
+  align-self: center;
+}

@@ -3,18 +3,17 @@ html {
 }
 body {
   padding: 0;
-  margin: 5rem 0rem 0rem 10rem ;
-  font-family: ui-sans-serif, 
-  system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto, Helvetica Neue, Arial, Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+  margin: 4rem auto 4rem auto ;
+  width: 60rem;
+  font-family: RalewayVariable,Raleway,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"
 }
 
 head {
-  font-family:  RalewayVariable,Raleway,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+  font-family: RalewayVariable,Raleway,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
   font-feature-settings: normal;;
 }
 
 hr {
-  margin-right: 20%;
   color: lightgrey;
 }
 

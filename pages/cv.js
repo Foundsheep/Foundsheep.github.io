@@ -2,23 +2,25 @@ import Link from "next/link";
 import Image from 'next/image';
 import Experience from "../components/experience";
 import Menu from "../components/menu";
+import cvStyle from '../styles/cv.module.css'
 
 export default function CV() {
   return (
     <>
       <Menu></Menu>
       <div>
-        <h1>이런 상 받아보신 적 있나요?</h1>
+        <h1 className={cvStyle.textCenter}>이런 상 받아보신 적 있나요?</h1>
         <Image
           src='/images/reward.png'
           height={200}
           width={300}
           alt='reward'
+          className={cvStyle.imageCenter}
         />
       </div>
       <div>
         <hr></hr>
-        <h1>Work Experience</h1>
+        <h1 className={cvStyle.textCenter}>Work Experience</h1>
         <h2>Devlopment related</h2>
         <Experience 
           props={
@@ -83,7 +85,7 @@ export default function CV() {
         />
       </div>
       <div>
-        <h1>Education</h1>
+        <h1 className={cvStyle.textCenter}>Education</h1>
         <Experience 
           props={
             {

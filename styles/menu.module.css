@@ -3,7 +3,7 @@
   padding: 0 12px 0 0;
   font-size: 2rem;
   text-decoration-line: none;
-  font-weight: 600;
+  font-weight: 800;
   margin-top: 10px;
 }
 
@@ -19,11 +19,12 @@
 
 .linkContainer {
   display: flex; /* keeps the links side by side */
-  justify-content: center;
+  justify-content: center;  
 }
 .centeredContainer {
   display: flex;
   flex-direction: column; /* Aligns children vertically */
   align-items: center; /* Centers them horizontally */
   justify-content: center;
+  margin-bottom: 4rem;
 }

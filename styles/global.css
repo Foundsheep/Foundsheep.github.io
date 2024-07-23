@@ -5,11 +5,10 @@ body {
   padding: 0;
   margin: 4rem auto 4rem auto ;
   width: 60rem;
-  font-family: RalewayVariable,Raleway,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"
+  font-family: RalewayVariable,Raleway,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
 }
 
 head {
-  font-family: RalewayVariable,Raleway,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
   font-feature-settings: normal;;
 }
 
@@ -20,3 +19,13 @@ hr {
 Menu {
   align-self: center;
 }
+
+.textCenter {
+  text-align: center;  
+}
+
+.textSmall {
+  font-weight: 100;
+  font-style: italic;
+}
+

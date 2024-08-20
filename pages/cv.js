@@ -9,12 +9,30 @@ export default function CV() {
   return (
     <>
       <Menu></Menu>
-      <CVHeader></CVHeader>
+      {/* <CVHeader></CVHeader> */}
       <div>
+        <h1>Deok Jong Moon</h1>
+        <h2>ML Engineer</h2>
+        <div className={cvStyle.sideBySide}>
+          <div>
+            <h5>Interest</h5>
+          </div>
+          <div>
+            <h5>Skills</h5>
+          </div>
+        </div>
         <hr></hr>
-        <h1 className={cvStyle.textCenter}>Work Experience</h1>
-        <h2>Devlopment related</h2>
-        <Experience 
+      </div>
+      <div>
+        <h2>Work Experience</h2>
+        <div>
+          <article>
+            <h3>ML Engineer / Team leader @ CSI-Vision</h3>
+            <p>2024 March ~ Present</p>
+          </article>
+        </div>
+      </div>
+        {/* <Experience 
           props={
             {
               date: "2024-03 ~ present",
@@ -96,7 +114,7 @@ export default function CV() {
             }
           }
         />
-      </div>
+      </div> */}
     </>
   )
 }

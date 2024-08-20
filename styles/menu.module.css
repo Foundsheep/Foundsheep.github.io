@@ -1,16 +1,15 @@
 .menuItem {
   display: inline;
-  padding: 0 12px 0 0;
+  padding: 55px 15px 0 0;
   font-size: 2rem;
   text-decoration-line: none;
   font-weight: 800;
-  margin-top: 10px;
 }
 
 .menuImage {
   display: flex;
   border-radius: 30px;
-  /* padding: 0 12px 0 0; */
+  padding: 0 15px 0 0;
 }
 
 .imageContainer {
@@ -21,9 +20,10 @@
   display: flex; /* keeps the links side by side */
   justify-content: center;  
 }
+
 .centeredContainer {
   display: flex;
-  flex-direction: column; /* Aligns children vertically */
+  flex-direction: row; /* Aligns children vertically */
   align-items: center; /* Centers them horizontally */
   justify-content: center;
   margin-bottom: 4rem;

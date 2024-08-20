@@ -12,14 +12,14 @@ export default function Menu() {
               priority
               src='/images/profile_crop.jpg'
               className={menuStyle.menuImage}
-              height={150}
-              width={150}
+              height={100}
+              width={100}
               alt="profile"
             />
           </Link>
         </div>
         <div className={menuStyle.linkContainer}>
-          <Link href={"/"} className={menuStyle.menuItem}>Home</Link>
+          <Link href={"/"} className={menuStyle.menuItem}>About</Link>
           <Link href={"/cv"} className={menuStyle.menuItem}>CV</Link>
           <Link href={"/contact"} className={menuStyle.menuItem}>Contact</Link>
         </div>

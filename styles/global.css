@@ -29,3 +29,18 @@ Menu {
   font-style: italic;
 }
 
+.rounded {
+  border-radius: 10%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.font-bold {
+  font-weight: 500;
+}

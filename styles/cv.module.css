@@ -6,3 +6,8 @@
   width: 50%;
   height: auto;
 }
+
+.sideBySide {
+  display: flex;
+  align-items: stretch;
+}

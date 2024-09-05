@@ -14,7 +14,7 @@ const navItems = {
 
 export function NavBar() {
   return (
-    <nav className="min-h-16 tracking-tight">
+    <nav className="min-h-20 tracking-tight">
       <div>
         {Object.entries(navItems).map(([path, {name}]) => {
           return (

@@ -6,7 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --background-rgb-grey: 235, 235, 235;
+  --background-rgb-grey: 240, 240, 240;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -37,10 +37,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .subtitle {
+    font-weight: 800;
+    font-size: x-large;
+    margin-top: 80px;
+    margin-bottom: 4px;
+
+  }
 }
 
 @layer base{
-  h1, p {
+  h1, h2, h3, p {
     @apply mb-4;
   }
 }

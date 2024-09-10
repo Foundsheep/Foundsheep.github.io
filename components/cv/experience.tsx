@@ -1,12 +1,15 @@
+import { Skill, SkillProps, skillsDirectory
+  
+ } from "../icons/skill";
 type ExperienceProps = {
   jobTitle: string;
   company: string;
   period: string;
   content: string | string[];
+  skills?: (keyof typeof skillsDirectory)[];
 }
 
-export function Experience(props: ExperienceProps) {
-  const {jobTitle, company, period, content} = props;
+export function Experience({jobTitle, company, period, content, skills}: ExperienceProps) {
   const renderContent = () => {
     if (Array.isArray(content)) {
       return (
@@ -29,11 +32,16 @@ export function Experience(props: ExperienceProps) {
       <div className="w-1/4 pt-1.5">
         <h4 className="font-light">{period}</h4>  
       </div>
-      <div className="w-3/4 pt-1 px-4 hover:shadow-lg rounded-xl transition-all duration-400 hover:bg-slate-200">
+      <div className="w-3/4 pt-1 px-4 rounded-xl transition-all duration-75 hover:bg-inherit hover:shadow-md ">
         <h4 className="text-lg font-light text-slate-900">{jobTitle}</h4>
         <h4 className="text-md font-thin italic text-slate-400">@ {company}</h4>
         {/* <p className="font-light">{content}</p> */}
         {renderContent()}
+        <div className="flex flex-row flex-wrap gap-2 mb-4">
+          {skills?.map((skillKey) => (
+            <Skill key={skillKey} {...skillsDirectory[skillKey]} />
+          ))}
+        </div>
       </div>
     </div>
   );

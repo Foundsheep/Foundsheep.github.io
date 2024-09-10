@@ -1,9 +1,13 @@
 import { Experience } from "@/components/cv/experience";
 import { Subtitle } from "@/components/cv/subtitle";
+import { Summary } from "@/components/cv/summary";
+import { Skill } from "@/components/icons/skill";
 
 export default function CV() {
     return <>
-      <h1>Let's see what kind of road I've walked along</h1>
+      <section>
+        <Summary />
+      </section>
       <section>
         <Subtitle subtitle="Experience"></Subtitle>
         <Experience 
@@ -15,7 +19,9 @@ export default function CV() {
               "Hyundai Motors - Customised Stable Diffusion을 활용한 SPR 단면 예측",
               "각종 선행개발 POC"
             ]
-          }/>
+          }
+          skills={["python", "pytorch", "lightning", "torchserve", "django", "huggingface"]}
+        />
         <Experience 
           jobTitle="ML/Backend Engineer" 
           company="PublicAI" 
@@ -26,7 +32,9 @@ export default function CV() {
               "대검찰청 - 빅데이터 기반 디지털 포렌식 솔루션 구축(모바일 파트 담당)",
               "한국고용정보원 - 워크넷 일자리 추천시스템 유지보수"
             ]
-          }/>
+          }
+          skills={["java", "springboot"]}
+        />
 
         <Subtitle subtitle="Experience-Non-dev-related"></Subtitle>
         <Experience 

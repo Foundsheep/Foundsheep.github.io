@@ -18,7 +18,7 @@ export function NavBar() {
       <div>
         {Object.entries(navItems).map(([path, {name}]) => {
           return (
-            <Link className="mr-4 font-extrabold text-4xl sm:mr-6 md:mr-8"
+            <Link className="mr-4 font-extrabold text-4xl sm:mr-8 md:mr-14"
               key={path}
               href={path}
             >

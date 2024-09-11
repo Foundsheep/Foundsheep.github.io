@@ -4,7 +4,10 @@ import { Subtitle } from "./subtitle";
 
 const summaryWidth = 40
 const summaryHeight = 40
-const SkillCategory = ({stars, title, skills, width=summaryWidth, height=summaryHeight}) => (
+const SkillCategory = (
+  {stars, title, skills, width=summaryWidth, height=summaryHeight}: 
+  {stars: number, title: string, skills: string[], width?: number, height?: number}
+  ) => (
   <div className="flex-grow">
     <div className="flex flex-row">
       <div className="flex pt-1">

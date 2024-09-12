@@ -4,7 +4,17 @@ import { Summary } from "@/components/cv/summary";
 
 export default function CV() {
     return <>
-    <section>
+    <section className="w-full">
+      <p>
+        Total duration I worked in 
+        <span className="rounded-md bg-black text-slate-100 px-1 mx-1 mb-1">dev</span> field : 
+        <span className="rounded-md bg-black text-red-300 px-1 mx-1">2 yrs 2 mths</span>
+      </p>
+      <p>
+        Total duration I worked in 
+        <span className="rounded-md bg-black text-slate-100 px-1 mx-1 mb-1">other</span> fields : 
+        <span className="rounded-md bg-black text-red-300 px-1 mx-1">3 yrs 7 mths</span>
+      </p>
       <Summary />
     </section>
     <section>
@@ -15,7 +25,7 @@ export default function CV() {
         period="2024.03 ~ Present" 
         content={
           [
-            "Hyundai Motors - Customised Stable Diffusion을 활용한 SPR 단면 예측",
+            "Hyundai Motors - Customised Diffusion을 활용한 SPR 단면 예측",
             "각종 선행개발 POC"
           ]
         }

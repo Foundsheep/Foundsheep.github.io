@@ -31,12 +31,11 @@ export function Summary() {
   const oneStar = ["typescript", "nextjs", "tailwindcss"]
 
   return <>
-    <p>Let's see what kind of paths DJ has taken... :)</p>
     <Subtitle subtitle="Summary"/>
-    <div className="flex flex-wrap gap-4">
-      <SkillCategory stars={3} title="Professionally, frequently" skills={threeStars} />
-      <SkillCategory stars={2} title="Professionally, Occationally" skills={twoStars} />
-      <SkillCategory stars={1} title="Personally developed" skills={oneStar} />
+    <div className="flex flex-wrap gap-2">
+      <SkillCategory stars={3} title="Professional, frequent" skills={threeStars} />
+      <SkillCategory stars={2} title="Professional, occational" skills={twoStars} />
+      <SkillCategory stars={1} title="Personal, interest" skills={oneStar} />
     </div>
   </>
 }

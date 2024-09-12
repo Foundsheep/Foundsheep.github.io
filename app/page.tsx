@@ -1,3 +1,4 @@
+import { Experience } from "@/components/cv/experience";
 import Image from "next/image";
 
 export default function Home() {

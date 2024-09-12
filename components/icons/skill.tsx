@@ -9,26 +9,6 @@ export type SkillProps = {
   url: string;
 }
 
-export function Skill ({src, alt, width=50, height=50, url}: SkillProps) {
-  return (
-    <Link 
-      className=""
-      href={url} 
-      target="_blank"
-    >
-      <Image
-        className="grayscale hover:grayscale-0 transition-all duration-200"
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        title={alt}
-      />
-    </Link>
-  )
-}
-
-
 const skillSize = {width: 20, height:20}
 export const skillsDirectory: Record<string, SkillProps> = {
   python: {...skillSize, src: "/skills/python-icon.svg", alt: "Python", url: "https://www.python.org/doc/"},
@@ -46,4 +26,22 @@ export const skillsDirectory: Record<string, SkillProps> = {
   lightning: {...skillSize, src: "/skills/lightning-icon.svg", alt: "PyTorch Lightning", url: "https://lightning.ai/docs/pytorch/stable/"},
   springboot: {...skillSize, src: "/skills/springboot-icon.svg", alt: "Spring Boot", url: "https://spring.io/projects/spring-boot"},
   huggingface: {...skillSize, src: "/skills/huggingface-logo.svg", alt: "HuggingFace", url: "https://huggingface.co/",}
+}
+
+export function Skill ({src, alt, width=50, height=50, url}: SkillProps) {
+  return (
+    <Link 
+      href={url} 
+      target="_blank"
+    >
+      <Image
+        className="grayscale hover:grayscale-0 transition-all duration-200"
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        title={alt}
+      />
+    </Link>
+  )
 }

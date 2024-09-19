@@ -44,6 +44,20 @@ export default function CV() {
         skills={["java", "springboot"]}
       />
 
+      <Subtitle subtitle="Dev Bootcamp"></Subtitle>
+      <Experience
+        jobTitle="AIFFEL 인공지능 학교 양재 2기"
+        company="K-Digital Training"
+        period="2021.12 ~ 2022.06"
+        content={
+          [
+            "데이터 분석 및 데이터 시각화",
+            "머신러닝 & 딥러닝 기초 및 CS231n 학습",
+            "딥러닝 심화과정 - Computer Vision",
+          ]
+        }
+      />
+
       <Subtitle subtitle="Experience(non-dev)"></Subtitle>
       <Experience 
         jobTitle="SCM Manager/Online shopping manager" 
@@ -61,7 +75,7 @@ export default function CV() {
         period="2016.02 ~ 2016.08" 
         content={["삼성전자 - 사내 커뮤니케이션 홈페이지(LiVE) 기획 및 운영"]}/>
 
-      <Subtitle subtitle="Education"></Subtitle>
+      <Subtitle subtitle="Education & Military Service"></Subtitle>
       <Experience 
         jobTitle="BA Television Production" 
         company="University of Westminster" 
@@ -72,6 +86,16 @@ export default function CV() {
         company="Bellerbys Colleage London" 
         period="2011.09 ~ 2012.08" 
         content={["English Language Preparation Programme also included"]}/>
+      <Experience 
+        jobTitle="육군 병장 만기 제대" 
+        company="R.O.K.A" 
+        period="2009.08 ~ 2011.06" 
+        content={[]}/>
+      <Experience 
+        jobTitle="인문계열" 
+        company="수지고등학교(용인)" 
+        period="2006.03 ~ 2009.02" 
+        content={[]}/>
     </section>
   </>
 }

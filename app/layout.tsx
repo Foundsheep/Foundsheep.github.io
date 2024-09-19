@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="${inter.className} antialiased min-h-screen min-w-fit flex flex-col items-center">
-        <main className="w-full pt-10 pb-80 px-8 max-w-3xl">
+        <main className="w-full pt-10 pb-80 px-8 max-w-3xl min-h-[1920px]">
           <NavBar />
           {children}
         </main>

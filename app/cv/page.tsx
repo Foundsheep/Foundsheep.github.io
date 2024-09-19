@@ -26,7 +26,6 @@ export default function CV() {
         content={
           [
             "Hyundai Motors - Customised Diffusion을 활용한 SPR 단면 예측",
-            "각종 선행개발 POC"
           ]
         }
         skills={["python", "pytorch", "lightning", "torchserve", "django", "huggingface"]}
@@ -56,11 +55,6 @@ export default function CV() {
         company="Tasty9" 
         period="2018.08 ~ 2019.08" 
         content={["테이스티나인 - 자재 구매 및 물류 유통 관리"]}/>
-      <Experience 
-        jobTitle="Journey to find the star..." 
-        company="Unemployed"
-        period="2016.09 ~ 2018.07" 
-        content={["진로 탐색..."]}/>
       <Experience 
         jobTitle="Advertising Agency AE" 
         company="EPPN" 

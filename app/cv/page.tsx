@@ -26,6 +26,8 @@ export default function CV() {
         content={
           [
             "Hyundai Motors - Customised Diffusion을 활용한 SPR 단면 예측",
+            "국립재난연구원 - 뉴스 요약 및 키워드 추출 언어 모델 구축",
+            "각종 선행개발(POC)"
           ]
         }
         skills={["python", "pytorch", "lightning", "torchserve", "django", "huggingface"]}

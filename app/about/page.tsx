@@ -1,4 +1,5 @@
 import { Summary } from "@/components/cv/summary";
+import Image from "next/image";
 
 export default function About() {
   return <>

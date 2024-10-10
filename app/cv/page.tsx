@@ -25,8 +25,8 @@ export default function CV() {
         period="2024.03 ~ Present" 
         content={
           [
-            "Hyundai Motors - Customised Diffusion을 활용한 SPR 단면 예측",
-            "국립재난연구원 - 뉴스 요약 및 키워드 추출 언어 모델 구축",
+            "Hyundai Motors - SPR quality prediction in generated images using customised Diffusion model",
+            "National Disaster Management Research Institute(국립재난연구원) - 뉴스 요약 및 키워드 추출 언어 모델 구축",
             "각종 선행개발(POC)"
           ]
         }

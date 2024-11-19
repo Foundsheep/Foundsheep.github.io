@@ -2,10 +2,10 @@ import { Skill, skillsDirectory } from "../icons/skill"
 import { FaStar } from "react-icons/fa";
 import { Subtitle } from "./subtitle";
 
-const summaryWidth = 40
-const summaryHeight = 40
+const summaryIconWidth = 40
+const summaryIconHeight = 40
 const SkillCategory = (
-  {stars, title, skills, width=summaryWidth, height=summaryHeight}: 
+  {stars, title, skills, width=summaryIconWidth, height=summaryIconHeight}: 
   {stars: number, title: string, skills: string[], width?: number, height?: number}
   ) => (
   <div className="flex-grow">
@@ -15,7 +15,7 @@ const SkillCategory = (
           <FaStar key={i} className="hover:text-yellow-800 transition-all duration-600" />
         ))}
       </div>
-      <h3 className="ml-2">{title}</h3>
+      <p className="ml-2">{title}</p>
     </div>
     <div className="flex flex-wrap gap-2">
       {skills.map((skillKey: string) => (
@@ -26,16 +26,16 @@ const SkillCategory = (
 )
 
 export function Summary() {
-  const threeStars = ["python", "pytorch", "lightning", "docker", "fastapi"]
-  const twoStars = ["java", "springboot", "django", "flask"]
+  const threeStars = ["python", "pytorch", "lightning", "docker", "fastapi", "flask"]
+  const twoStars = ["java", "springboot", "django", "aws_ec2"]
   const oneStar = ["typescript", "nextjs", "tailwindcss"]
 
   return <>
     <Subtitle subtitle="Summary"/>
-    <div className="flex flex-wrap gap-2">
-      <SkillCategory stars={3} title="Professional, frequent" skills={threeStars} />
-      <SkillCategory stars={2} title="Professional, occational" skills={twoStars} />
-      <SkillCategory stars={1} title="Personal, interest" skills={oneStar} />
+    <div className="grid grid-cols-3 gap-2">
+      <SkillCategory stars={3} title="Pro, ready to go" skills={threeStars} />
+      <SkillCategory stars={2} title="Pro, familar" skills={twoStars} />
+      <SkillCategory stars={1} title="Hobby, interested" skills={oneStar} />
     </div>
   </>
 }

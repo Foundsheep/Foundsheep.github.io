@@ -19,7 +19,7 @@ const noto_sans_kr = Noto_Sans_KR({
 
 export const metadata: Metadata = {
   title: "DJMoon",
-  description: "Records of the precious days lived by DJ",
+  description: "DJ's dev playground like that of childhood",
 };
 
 export default function RootLayout({

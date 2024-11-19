@@ -17,6 +17,7 @@ export const skillsDirectory: Record<string, SkillProps> = {
   nextjs: {...skillSize, src: "/skills/nextjs-icon.svg", alt: "Next.js", url:"https://nextjs.org/"},
   tailwindcss: {...skillSize, src: "/skills/tailwindcss-icon.svg", alt: "TailwindCSS", url: "https://tailwindcss.com/"},
   pytorch: {...skillSize, src: "/skills/pytorch-icon.svg", alt: "PyTorch", url: "https://pytorch.org/"},
+  tensorflow: {...skillSize, src: "/skills/tensorflow-icon.svg", alt: "TensorFlow", url: "https://www.tensorflow.org/"},
   fastapi: {...skillSize, src: "/skills/fastapi-icon.svg", alt: "FastAPI", url: "https://fastapi.tiangolo.com/"},
   django: {...skillSize, src: "/skills/djangoproject-icon.svg", alt: "Django", url: "https://www.djangoproject.com/"},
   flask: {...skillSize, src: "/skills/flask-icon.svg", alt: "Flask", url: "https://flask.palletsprojects.com/en/3.0.x/"},

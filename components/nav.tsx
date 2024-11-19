@@ -15,7 +15,7 @@ const navItems = {
 
 export function NavBar() {
   return (
-    <nav className="min-h-20 tracking-tight flex justify-between">
+    <nav className="min-h-20 tracking-tight flex justify-between mb-10">
       <div>
         {Object.entries(navItems).map(([path, {name}]) => {
           return (

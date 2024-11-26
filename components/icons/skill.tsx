@@ -27,7 +27,8 @@ export const skillsDirectory: Record<string, SkillProps> = {
   lightning: {...skillSize, src: "/skills/lightning-icon.svg", alt: "PyTorch Lightning", url: "https://lightning.ai/docs/pytorch/stable/"},
   springboot: {...skillSize, src: "/skills/springboot-icon.svg", alt: "Spring Boot", url: "https://spring.io/projects/spring-boot"},
   huggingface: {...skillSize, src: "/skills/huggingface-logo.svg", alt: "HuggingFace", url: "https://huggingface.co/"},
-  aws_ec2: {...skillSize, src:"/skills/amazon_ecs-icon.svg", alt:"AWS EC2", url:"https://aws.amazon.com/ec2/"}
+  aws_ec2: {...skillSize, src:"/skills/amazon_ecs-icon.svg", alt:"AWS EC2", url:"https://aws.amazon.com/ec2/"},
+  matlab: {...skillSize, src:"/skills/matlab-icon.svg", alt:"MATLAB", url:"https://mathworks.com/products/matlab.html"}
 }
 
 export function Skill ({src, alt, width=50, height=50, url}: SkillProps) {

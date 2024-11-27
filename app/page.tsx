@@ -5,10 +5,10 @@ export default function Home() {
   return <>
     <h3>Hello, I'm DeokJong(a.k.a DJ) Moon</h3>
     <p>
-      For anyone who knows of Harry Potter, I'm like Prof. Severus Snape. I'm quite a cynical person and give critical opinions very often. However, the advices and thoughts I give to the organisation I belong to tend to be relativly trustworthy and of sincere thoughts.
+     For anyone who knows of the Harry Potter series, I'm like Prof. Severus Snape. I seem quite cynical and often give critical opinions (no worries for hurting the listeners, since I wouldn't say I like it). However, the advice and thoughts I suggest to my group are quite often found to be trustworthy and of sincere thoughts.
     </p>
     <p>
-      To help Harry, Severus eventually loses his life like Prof. Albus Dumbledore. They both accomplished their tasks to make the ultimate victory, but in a different way. I think Severus would have become generous and warm-hearted like Albus, if he remained in his life and got mature by an unexpected love encountered in the future. I hope oneday I'll become like Albus and not give just critically important thoughts, but also generously embrace things going on around me :)
+      To help Harry, Severus eventually loses his life as Prof. Albus Dumbledore does. I interpret it as both advocates accomplishing their tasks to make the ultimate victory but in different ways. I think Severus would have become more generous and warm-hearted like Albus if he remained in his life and matured by an unexpected love encountered in the future after the victory. I dream of becoming like Albus one day, generously embracing and leading people under my care, and the warmth of love sprouting from within me making good fruits in my organisation :)
     </p>
     {/* <p>
       To know the Creator of the universe and to live according to His original scheme, which I believe is to enjoy this life in harmony with others, is one of the greatest goals I have for my daily life :).

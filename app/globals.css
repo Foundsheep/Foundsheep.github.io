@@ -49,7 +49,7 @@ body {
 
 @layer base{
   h1, h2, h3, p {
-    @apply mb-4;
+    @apply mb-6;
   }
 
   h1 {

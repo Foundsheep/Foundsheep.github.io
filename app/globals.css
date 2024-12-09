@@ -6,7 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --background-rgb-grey: 240, 240, 240;
+  --background-rgb-grey: 245, 245, 245;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -40,7 +40,7 @@ body {
 
   .subtitle {
     font-weight: 800;
-    font-size: x-large;
+    font-size: 40px;
     margin-top: 80px;
     margin-bottom: 4px;
 
@@ -53,22 +53,22 @@ body {
   }
 
   h1 {
-    @apply text-4xl
+    @apply text-8xl
   }
 
   h2 {
-    @apply text-3xl
+    @apply text-6xl
   }
 
   h3 {
-    @apply text-2xl
+    @apply text-4xl
   }
 
   h4 {
-    @apply text-xl
+    @apply text-2xl
   }
 
   p, li {
-    @apply text-lg
+    @apply text-xl leading-9 text-slate-500
   }
 }

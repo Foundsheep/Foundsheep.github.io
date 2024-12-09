@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={afacad.className}>
       <body className="antialiased min-h-screen min-w-fit flex flex-col items-center">
-        <main className="w-full pt-10 pb-80 px-8 max-w-3xl min-h-[1920px]">
+        <main className="w-full pt-10 pb-80 px-8 max-w-4xl min-h-[1920px]">
           <NavBar />
           {children}
         </main>

@@ -20,6 +20,7 @@ export default function Philosophy() {
     
     <h4 className={headingStyle}>Those regarding 'life'</h4>
     <ol className={listStyle}>
+      <li>Be humble and remember the merciful Creator</li>
     </ol>
 
   </>

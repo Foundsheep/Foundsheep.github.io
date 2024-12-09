@@ -4,8 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return <>
     <h3>Hello, I'm DeokJong(a.k.a DJ) Moon. <br />
-      Let me tell you about myself with a bit of touching story.</h3>
-    {/* <p>Let me tell you about myself with a bit of touching story :)</p> */}
+      Let me tell you about myself with a bit of storytelling.</h3>
     <p>
       For anyone who knows of the Harry Potter series, I'm like Prof. Severus Snape. I seem quite cynical and often give critical opinions (no worries for hurting the listeners, since I wouldn't say I like it). However, the advice and thoughts I suggest to my group are quite often found to be trustworthy and of sincere thoughts.
     </p>

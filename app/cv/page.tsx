@@ -28,9 +28,9 @@ export default function CV() {
         period="2024.03 ~ Present" 
         content={
           [
-            "Hyundai Motors : SPR quality prediction in generated images using Diffusion model(DDPM)",
-            "National Disaster Management Research Institute : Korean keywords extraction from Naver news using KeyBERT",
-            "POCs"
+            ["AI", "Conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors"],
+            ["AI", "Korean keywords extraction in Naver news using KeyBERT", "National Disaster Management Research Institute"],
+            ["AI", "Proof of concepts (3D volume prediction, signature verification ...)"]
           ]
         }
         // skills={["python", "pytorch", "lightning", "torchserve", "django", "huggingface"]}
@@ -41,9 +41,9 @@ export default function CV() {
         period="2022.07 ~ 2024.03" 
         content={
           [
-            "ICR - MDM(Mobile Device Management) solution for Android devices",
-            "Supreme Prosecutors' Office - NDFaas(National Diginal Forensic) mobile information extraction",
-            "Korea Enployment Information Service - Job recommendation system in WorkNet maintenance"
+            ["Backend", "Android devices controling API using Google's Android Management API", "ICR"],
+            ["Backend", "Mobile data extraction API in NDFaas(National Diginal Forensic System)", "Supreme Prosecutors' Office"],
+            ["AI", "Job recommendation API maintenance in the national job matching service", "Korea Enployment Information Service"]
           ]
         }
         // skills={["java", "springboot"]}
@@ -51,62 +51,84 @@ export default function CV() {
 
       <Subtitle subtitle="Dev Bootcamp"></Subtitle>
       <Experience
-        jobTitle="K-Digital Training : AIFFEL AI school"
-        company="Modu LAB"
+        jobTitle=""
+        company="AIFFEL AI school"
         period="2021.12 ~ 2022.06"
         content={
           [
-            "Basic data analysis & visualisation",
-            "Basic ML & DL with Stanford's CS231n lectures",
-            "Advanced DL in Computer Vision",
+            ["", "K-Digital Training"],
+            ["", "Basic data analysis & visualisation"],
+            ["", "Basic ML & DL with Stanford's CS231n lectures"],
+            ["", "Advanced DL track for Computer Vision"],
           ]
         }
       />
 
       <Subtitle subtitle="Experience(non-dev)"></Subtitle>
       <Experience 
-        jobTitle="SCM Manager/Online shopping manager" 
-        company="ThePlantEat" 
+        jobTitle="" 
+        company="" 
         period="2020.01 ~ 2021.09" 
-        content={["Eat's Better : Brand's online shop management & SCM"]}/>
-      <Experience 
-        jobTitle="SCM Manager/Purchasing manager" 
-        company="Tasty9" 
-        period="2018.08 ~ 2019.08" 
-        content={["Purchase & SCM"]}/>
-      <Experience 
-        jobTitle="Advertising Agency AE" 
-        company="EPPN" 
-        period="2016.02 ~ 2016.08" 
-        content={["Samsung Electronics : Employees' internal communication website(LiVE) management"]}/>
-
-      <Subtitle subtitle="Education & Military Service"></Subtitle>
-      <Experience 
-        jobTitle="BA Television Production" 
-        company="University of Westminster" 
-        period="2012.09 ~ 2015.06" 
-        content={
-          [
-            "Drama production",
-            "Media & Communication",
-            "Creativity"
+        content={[
+            ["", "@ ThePlantEat (AI-based vegan food manufacturer)"],
+            ["", "'Eat's Better' brand's online shop management & SCM"]
           ]
         }/>
       <Experience 
-        jobTitle="Media Foundation" 
-        company="Bellerbys Colleage London" 
-        period="2011.09 ~ 2012.08" 
-        content={["English Language Preparation Programme also included"]}/>
+        jobTitle="" 
+        company="" 
+        period="2018.08 ~ 2019.08" 
+        content={[
+          ["", "@ Tasty9 (Korean ready-meal manufacturer)"],
+          ["", "Purchasing management & SCM"]
+        ]
+        }/>
       <Experience 
-        jobTitle="Military service" 
-        company="R.O.K.A" 
+        jobTitle="" 
+        company="" 
+        period="2016.02 ~ 2016.08" 
+        content={[
+            ["", "@ EPPN (Advertising Agency)"],
+            ["", "Employees' internal communication website(LiVE) management", "Samsung Electronics"]
+          ]
+        }/>
+
+      <Subtitle subtitle="Education & Military Service"></Subtitle>
+      <Experience 
+        jobTitle="" 
+        company="" 
+        period="2012.09 ~ 2015.09" 
+        content={[
+            ["", "@ University of Westminster (London)"],
+            ["", "BA Television Production"],
+          ]
+        }/>
+      <Experience 
+        jobTitle="" 
+        company="" 
+        period="2011.09 ~ 2012.09" 
+        content={[
+            ["", "@ Bellerbys Colleage London"],
+            ["", "Media Foundation (preparational course for universtiy)"]
+          ]
+        }/>
+      <Experience 
+        jobTitle="" 
+        company="" 
         period="2009.08 ~ 2011.06" 
-        content={[]}/>
+        content={[
+            ["", "@ R.O.K.A"],
+            ["", "military service"]
+          ]
+        }/>
       <Experience 
-        jobTitle="High school education" 
-        company="Suji High School(Yongin)" 
-        period="2006.03 ~ 2009.02" 
-        content={[]}/>
+        jobTitle="" 
+        company="" 
+        period="2006.03 ~ 2009.03" 
+        content={[
+            ["", "@ Suji High School (Yongin)"],
+          ]
+        }/>
     </section>
   </>
 }

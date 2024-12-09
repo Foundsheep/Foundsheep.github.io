@@ -19,7 +19,7 @@ export function NavBar() {
       <div>
         {Object.entries(navItems).map(([path, {name}]) => {
           return (
-            <Link className="mr-4 font-extrabold text-5xl sm:mr-8 md:mr-14"
+            <Link className="mr-4 font-extrabold text-6xl sm:mr-8 md:mr-14"
               key={path}
               href={path}
             >
@@ -28,7 +28,7 @@ export function NavBar() {
           )
         })}
       </div>
-      <div className="flex gap-1 mt-5">
+      <div className="flex gap-1 mt-8">
         <Link 
           href="https://github.com/foundsheep" 
           target="_blank"

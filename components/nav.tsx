@@ -1,5 +1,8 @@
+'use client'
+
 import Link from "next/link";
 import Image from "next/image";
+import { sendGAEvent } from "@next/third-parties/google";
 
 const navItems = {
   "/": {
@@ -32,6 +35,7 @@ export function NavBar() {
         <Link 
           href="https://github.com/foundsheep" 
           target="_blank"
+          onClick={() => sendGAEvent("event", "buttonClicked", { value: 'github'})}
         >
           <Image
             className="grayscale"
@@ -44,6 +48,7 @@ export function NavBar() {
         <Link 
           href="https://huggingface.co/DJMOON" 
           target="_blank"
+          onClick={() => sendGAEvent("event", "buttonClicked", { value: 'huggingface'})}
         >
           <Image
             className="grayscale"

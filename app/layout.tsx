@@ -3,6 +3,7 @@ import { Afacad, Noto_Sans_KR } from "next/font/google";
 import localFont from 'next/font/local';
 import "./globals.css";
 import { NavBar } from "@/components/nav";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 // const inter = Roboto({ subsets: ["latin"], weight: ["300"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={afacad.className}>
+      <GoogleAnalytics gaId="G-PVP71LJRLC" />
       <body className="antialiased min-h-screen min-w-fit flex flex-col items-center">
         <main className="w-full pt-10 pb-80 px-8 max-w-4xl min-h-[1920px]">
           <NavBar />

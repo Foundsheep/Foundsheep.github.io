@@ -16,6 +16,8 @@ export default function CV() {
         <span className="rounded-md bg-black text-red-300 px-1 mx-1">3 yrs 7 mths</span>
       </p> */}
       <p>
+        I'm deeply interested in ML/DL for its mathmatical background, but also enjoy developing a solution with others as a team because it drives me to achieve a goal with positive energy :)
+        <br></br>
         I work mainly as a ML Engineer, but working at startups has given me many opportunities to learn Backend related skills, such as AWS, linux, docker, web frameworks etc.
       </p>
       <Summary />

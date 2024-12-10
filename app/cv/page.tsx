@@ -20,7 +20,7 @@ export default function CV() {
           [
             ["AI", "Conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors"],
             ["AI", "Korean keywords extraction in Naver news using KeyBERT", "National Disaster Management Research Institute"],
-            ["AI", "Proof of concepts (3D volume prediction, signature verification ...)"]
+            ["AI", "Proof of concepts (3D volume prediction, Signal processing ...)"]
           ]
         }
         // skills={["python", "pytorch", "lightning", "torchserve", "django", "huggingface"]}

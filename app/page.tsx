@@ -6,7 +6,7 @@ export default function Home() {
     <h3>Hello, I'm DeokJong(a.k.a DJ) Moon. <br />
       Let me tell you about myself with a bit of storytelling.</h3>
     <p>
-      For anyone who knows of Harry Potter, I'm like Prof. Severus Snape. I often give critical opinions and seem very disintersted and neutral when it comes to relationships(no worries about hurting anyone, since I hate it). At the end of the story, Severus eventually loses his life to help Harry as Prof. Albus Dumbledore does. I interpret this as both advocates accomplishing their tasks to achieve the ultimate victory but in different ways.
+      For anyone who knows of Harry Potter, I'm like Prof. Severus Snape. I often give critical opinions and seem very sharp and interested in nothing but work(no worries about hurting anyone, since I hate it). At the end of the story, Severus eventually loses his life to help Harry as Prof. Albus Dumbledore does. I interpret this as both advocates accomplishing their tasks to achieve the ultimate victory in respectively different ways.
     </p>
     <p>
       Likewise, I serve my organisation with a sense of great magnitude and try to be a member of trust despite being seen as cynical. I think Severus would have become more generous and warm-hearted like Albus if he remained in his life and matured by an unexpected love encountered in the future after the victory. I dream of becoming like Albus one day, generously embracing and leading people under my care, and the warmth of love sprouting from within me making good fruits in my organisation :)

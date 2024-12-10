@@ -39,9 +39,9 @@ export default function CV() {
         // skills={["java", "springboot"]}
       />
 
-      <Subtitle subtitle="Dev Bootcamp"></Subtitle>
+      {/* <Subtitle subtitle="Dev Bootcamp"></Subtitle> */}
       <Experience
-        jobTitle=""
+        jobTitle="Dev bootcamp"
         company="AIFFEL AI school"
         period="2021.12 ~ 2022.06"
         content={

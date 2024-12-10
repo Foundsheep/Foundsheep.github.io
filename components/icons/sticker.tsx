@@ -1,6 +1,6 @@
 export default function Sticker(category: string) {
   return(
-    <span className="bg-slate-400 px-1 rounded-md text-slate-100 text-base">{category}</span>
+    <span className="bg-slate-200 px-1 rounded-md text-slate-500 text-base">{category}</span>
   )
 }
 

@@ -39,7 +39,7 @@ function wrapDuration(period: string) {
   // yearDiff = String(yearDiff).padStart(1, "0");
   // monthDiff = String(monthDiff).padStart(2, "0");
   return (
-    <div><span className="bg-slate-400 px-1 rounded-md text-slate-100">{yearDiff}y {monthDiff != 0 ? `${monthDiff}m` : ""}</span></div>
+    <div><span className="bg-slate-200 px-1 rounded-md text-slate-500">{yearDiff}y {monthDiff != 0 ? `${monthDiff}m` : ""}</span></div>
   )
 }
 
@@ -68,12 +68,12 @@ export function Experience({jobTitle, company, period, content, skills}: Experie
   return (
     <div className="flex flex-col md:flex-row mt-4">
       <div className="w-1/4 pt-1.5">
-        <div className="text-xl text-slate-900">{period}</div>
+        <div className="text-xl text-slate-500">{period}</div>
         {wrapDuration(period)}
         {company && (
-          <div className="text-xl font-semibold italic text-slate-700">@ {company}</div>
+          <div className="text-xl font-semibold italic text-slate-500">@ {company}</div>
         )}
-        <div className="text-lg font-thin text-slate-700">{jobTitle}</div>
+        <div className="text-lg font-thin text-slate-500">{jobTitle}</div>
       </div>
       <div className="w-3/4 pt-1 px-4 rounded-xl transition-all duration-75 hover:bg-inherit hover:shadow-md ">
         {renderContent()}

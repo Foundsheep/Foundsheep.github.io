@@ -19,7 +19,7 @@ const noto_sans_kr = Noto_Sans_KR({
 
 
 export const metadata: Metadata = {
-  title: "DJMoon",
+  title: "Let's remember DJMoon",
   description: "DJ's dev playground like that of childhood",
 };
 

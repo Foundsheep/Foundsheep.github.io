@@ -1,26 +1,14 @@
+import ContactMe from "@/components/cv/contactme";
 import { Experience } from "@/components/cv/experience";
 import { Subtitle } from "@/components/cv/subtitle";
 import { Summary } from "@/components/cv/summary";
+import Link from "next/link";
 
 export default function CV() {
     return <>
     <section className="w-full">
-      {/* <p>
-        Total duration I worked in 
-        <span className="rounded-md bg-black text-slate-100 px-1 mx-1 mb-1">dev</span> field : 
-        <span className="rounded-md bg-black text-red-300 px-1 mx-1">2 yrs 2 mths</span>
-      </p>
-      <p>
-        Total duration I worked in 
-        <span className="rounded-md bg-black text-slate-100 px-1 mx-1 mb-1">other</span> fields : 
-        <span className="rounded-md bg-black text-red-300 px-1 mx-1">3 yrs 7 mths</span>
-      </p> */}
-      <p>
-        I'm deeply interested in ML/DL for its mathmatical background, but also enjoy developing a solution with others as a team because it drives me to achieve a goal with positive energy :)
-        <br></br>
-        I work mainly as a ML Engineer, but working at startups has given me many opportunities to learn Backend related skills, such as AWS, linux, docker, web frameworks etc.
-      </p>
       <Summary />
+      <ContactMe />
     </section>
     <section>
       <Subtitle subtitle="Experience"></Subtitle>

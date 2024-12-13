@@ -30,7 +30,7 @@ const SkillCategory = (
 export function Summary() {
   const threeStars = ["python", "huggingface", "pytorch", "lightning", "docker", "fastapi", "flask"]
   const twoStars = ["java", "springboot", "django", "aws_ec2", "tensorflow", "matlab"]
-  const oneStar = ["typescript", "nextjs", "tailwindcss"]
+  const oneStar = ["javascript", "typescript", "nextjs", "tailwindcss"]
 
   return <>
     <Subtitle subtitle="Summary"/>

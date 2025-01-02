@@ -2,11 +2,19 @@ import { Skill, SkillProps, skillsDirectory } from "../icons/skill";
 import Sticker, { CompanySticker } from "../icons/sticker";
 import Image from "next/image";
 
+type ContentType = string | ([
+  string,
+  string,
+  string,
+  string[]?
+])[];
+
 type ExperienceProps = {
   jobTitle: string;
   company: string;
   period: string;
-  content: string | string[][];
+  // content: string | string[][] | Array<Array<string | Array<string>>>;
+  content: ContentType;
   skills?: (keyof typeof skillsDirectory)[];
 }
 
@@ -57,7 +65,7 @@ export function Experience({jobTitle, company, period, content, skills}: Experie
               <li 
                 className="" 
                 key={index}>
-                {item[0] !== "" &&  Sticker(item[0])}
+                {item[0] !== "" && Sticker(item[0])}
                 {item[0] !== "" && "\u00A0\u00A0"}
                 {item[1]}
                 {item[2] !== "" && item[2] != null && CompanySticker(item[2])}

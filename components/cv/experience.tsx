@@ -40,7 +40,7 @@ function wrapDuration(period: string) {
   // yearDiff = String(yearDiff).padStart(1, "0");
   // monthDiff = String(monthDiff).padStart(2, "0");
   return (
-    <div><span className="bg-slate-200 px-1 rounded-md text-slate-500">{yearDiff}y {monthDiff != 0 ? `${monthDiff}m` : ""}</span></div>
+    <div className="pt-0.5"><span className="bg-slate-200 px-1 rounded-md text-slate-500">{yearDiff}y {monthDiff != 0 ? `${monthDiff}m` : ""}</span></div>
   )
 }
 

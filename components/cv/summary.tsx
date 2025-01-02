@@ -42,7 +42,7 @@ export function Summary() {
     <ul className="list-disc list-inside mt-10">
         <li>I love to work as a ML engineer, but I enjoy working on backend stuff as well</li>
         <li>The reason I love ML is because of its strong relationship with maths</li>
-        <li>I'm eager to contribute to open-source project, such as <a className="text-rose-400" href="https://huggingface.co/docs/diffusers/en/index">Huggingface Diffusers</a>, and have an experience of it in Hyundai Motors' project to adapt the diffusion model for its needs</li>
+        <li>I'm eager to contribute to open-source projects, such as <a className="text-rose-400" href="https://huggingface.co/docs/diffusers/en/index">Huggingface Diffusers</a>, and have an experience of it in Hyundai Motors' project to adapt the diffusion model for its needs</li>
     </ul>
 
   </>

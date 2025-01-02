@@ -7,8 +7,8 @@ import Link from "next/link";
 export default function CV() {
     return <>
     <section className="w-full">
-      <Summary />
       <ContactMe />
+      <Summary />
     </section>
     <section>
       <Subtitle subtitle="Experience"></Subtitle>
@@ -32,8 +32,8 @@ export default function CV() {
         content={
           [
             ["Backend", "Android devices controling API", "ICR", ["Google's Android Management API used", "Java-written Android app maintenance", "Firebase Cloud Messaging used for push notification"]],
-            ["Backend", "Mobile data extraction API in NDFaas(National Diginal Forensic System)", "Supreme Prosecutors' Office"],
-            ["AI", "Job recommendation API maintenance in the national job matching service", "Korea Enployment Information Service"]
+            ["Backend", "Mobile data extraction API in NDFaas(National Diginal Forensic System)", "Supreme Prosecutors' Office", ["The biggest project participated yet(with more than 50 people involved)"]],
+            ["AI", "Job recommendation API maintenance in the national job matching service", "Korea Enployment Information Service", ["DeepFM model served", "Data analysis to improve job matching metrics"]]
           ]
         }
         // skills={["java", "springboot"]}

@@ -61,7 +61,7 @@ export default function CV() {
         period="2020.01 ~ 2021.09" 
         content={[
             ["", "@ ThePlantEat (AI-based vegan food manufacturer)"],
-            ["", "'Eat's Better' brand's online shop management & SCM"]
+            ["", "`Eat's Better` brand's online shop management & SCM"]
           ]
         }/>
       <Experience 

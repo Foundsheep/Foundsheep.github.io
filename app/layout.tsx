@@ -28,8 +28,8 @@ const crimson_pro = Crimson_Pro({
 })
 
 export const metadata: Metadata = {
-  title: "Love wins eventually",
-  description: "DJ's dev playground like that of childhood",
+  title: "DJ Moon | Portfolio",
+  description: "DJ's dev playground",
 };
 
 export default function RootLayout({

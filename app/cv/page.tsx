@@ -18,7 +18,7 @@ export default function CV() {
         period="2024.03 ~ Present" 
         content={
           [
-            ["AI", "Conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors"],
+            ["AI", "Conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation"]],
             ["AI", "Korean keywords extraction in Naver news using KeyBERT", "National Disaster Management Research Institute"],
             ["AI", "Proof of concepts (3D volume prediction, Signal processing ...)"]
           ]
@@ -31,7 +31,7 @@ export default function CV() {
         period="2022.07 ~ 2024.03" 
         content={
           [
-            ["Backend", "Android devices controling API using Google's Android Management API", "ICR"],
+            ["Backend", "Android devices controling API", "ICR", ["Google's Android Management API used", "Java-written Android app maintenance", "Firebase Cloud Messaging used for push notification"]],
             ["Backend", "Mobile data extraction API in NDFaas(National Diginal Forensic System)", "Supreme Prosecutors' Office"],
             ["AI", "Job recommendation API maintenance in the national job matching service", "Korea Enployment Information Service"]
           ]
@@ -57,28 +57,28 @@ export default function CV() {
       <Subtitle subtitle="Experience(non-dev)"></Subtitle>
       <Experience 
         jobTitle="" 
-        company="" 
+        company="ThePlantEat" 
         period="2020.01 ~ 2021.09" 
         content={[
-            ["", "@ ThePlantEat (AI-based vegan food manufacturer)"],
-            ["", "`Eat's Better` brand's online shop management & SCM"]
+            ["", "Data-driven vegan food manufacturer"],
+            ["", "`Eat's Better` online shop management & SCM"]
           ]
         }/>
       <Experience 
         jobTitle="" 
-        company="" 
+        company="Tasty9" 
         period="2018.08 ~ 2019.08" 
         content={[
-          ["", "@ Tasty9 (Korean ready-meal manufacturer)"],
+          ["", "Korean ready-meal manufacturer"],
           ["", "Purchasing management & SCM"]
         ]
         }/>
       <Experience 
         jobTitle="" 
-        company="" 
+        company="EPPN" 
         period="2016.02 ~ 2016.08" 
         content={[
-            ["", "@ EPPN (Advertising Agency)"],
+            ["", "Advertising Agency"],
             ["", "Employees' internal communication website(LiVE) management", "Samsung Electronics"]
           ]
         }/>
@@ -86,37 +86,32 @@ export default function CV() {
       <Subtitle subtitle="Education & Military Service"></Subtitle>
       <Experience 
         jobTitle="" 
-        company="" 
+        company="University of Westminster (London)" 
         period="2012.09 ~ 2015.09" 
         content={[
-            ["", "@ University of Westminster (London)"],
             ["", "BA Television Production"],
           ]
         }/>
       <Experience 
         jobTitle="" 
-        company="" 
+        company="Bellerbys Colleage London" 
         period="2011.09 ~ 2012.09" 
         content={[
-            ["", "@ Bellerbys Colleage London"],
             ["", "Media Foundation (preparational course for universtiy)"]
           ]
         }/>
       <Experience 
         jobTitle="" 
-        company="" 
+        company="R.O.K.A (Military service)"
         period="2009.08 ~ 2011.06" 
         content={[
-            ["", "@ R.O.K.A"],
-            ["", "military service"]
           ]
         }/>
       <Experience 
         jobTitle="" 
-        company="" 
+        company="Suji High School (Yongin)" 
         period="2006.03 ~ 2009.03" 
         content={[
-            ["", "@ Suji High School (Yongin)"],
           ]
         }/>
     </section>

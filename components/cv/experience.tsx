@@ -2,18 +2,11 @@ import { Skill, SkillProps, skillsDirectory } from "../icons/skill";
 import Sticker, { CompanySticker } from "../icons/sticker";
 import Image from "next/image";
 
-type ContentType = string | ([
-  string,
-  string,
-  string,
-  string[]?
-])[];
-
 type ExperienceProps = {
   jobTitle: string;
   company: string;
   period: string;
-  content: string | string[][] | ContentType;
+  content: string | ([string, string, string, string[]] | [string, string, string] | [string, string])[];
   skills?: (keyof typeof skillsDirectory)[];
 }
 

@@ -13,8 +13,7 @@ type ExperienceProps = {
   jobTitle: string;
   company: string;
   period: string;
-  // content: string | string[][] | Array<Array<string | Array<string>>>;
-  content: ContentType;
+  content: string | string[][] | ContentType;
   skills?: (keyof typeof skillsDirectory)[];
 }
 

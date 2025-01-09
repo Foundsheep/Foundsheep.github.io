@@ -13,7 +13,10 @@ export default function ContactMe() {
   return (
     <div className="text-center mt-20">
       <h4>Contact me</h4>
-      <p>deokjongmoon at gmail dot com</p>
+      <p>deokjongmoon at gmail dot com<br></br>
+        or<br></br>
+        moondeokojong at gmail dot com
+      </p>
       <p className="italic text-base">last updated on {getLastUpdated()}</p>
     </div>
   )

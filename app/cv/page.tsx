@@ -18,9 +18,9 @@ export default function CV() {
         period="2024.03 ~ Present" 
         content={
           [
-            ["AI", "Conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation"]],
+            ["AI", "Conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "Web UI using Django"]],
             ["AI", "Korean keywords extraction in Naver news using KeyBERT", "National Disaster Management Research Institute"],
-            ["AI", "Proof of concepts (3D volume prediction, Signal processing ...)"]
+            ["AI", "Proof of concepts (GNN, 3D volume prediction, Signal processing ...)"]
           ]
         }
         // skills={["python", "pytorch", "lightning", "torchserve", "django", "huggingface"]}
@@ -33,7 +33,7 @@ export default function CV() {
           [
             ["Backend", "Android devices controling API", "ICR", ["Google's Android Management API used", "Java-written Android app maintenance", "Firebase Cloud Messaging used for push notification"]],
             ["Backend", "Mobile data extraction API in NDFaas(National Diginal Forensic System)", "Supreme Prosecutors' Office", ["The biggest project participated yet(with more than 50 people involved)"]],
-            ["AI", "Job recommendation API maintenance in the national job matching service", "Korea Enployment Information Service", ["DeepFM model served", "Data analysis to improve job matching metrics"]]
+            ["AI", "Job recommendation API maintenance in the national job matching service", "Korea Enployment Information Service", ["DeepFM model maintenance", "Data analysis to improve job matching metrics"]]
           ]
         }
         // skills={["java", "springboot"]}

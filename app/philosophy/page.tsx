@@ -21,6 +21,8 @@ export default function Philosophy() {
     <h4 className={headingStyle}>Those regarding 'life'</h4>
     <ol className={listStyle}>
       <li>Be humble and remember the merciful Creator</li>
+      <li>Don't lose joy at all costs. Otherwise, your life would turn into a miserable loop without noticing it</li>
+      <li>The longer you live, the more you need to discard from your life to avoid being overwhelmed by it</li>
     </ol>
 
   </>

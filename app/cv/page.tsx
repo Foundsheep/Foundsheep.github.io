@@ -18,8 +18,9 @@ export default function CV() {
         period="2024.03 ~ Present" 
         content={
           [
-            ["AI", "Conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "Web UI using Django"]],
-            ["AI", "Korean keywords extraction in Naver news using KeyBERT", "National Disaster Management Research Institute"],
+            ["AI", "Image Gen AI - conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "Web UI using Django"]],
+            ["AI", "Semantic Segmentation - self-piercing rivet images", "Hyundai Motors", ["Data annotation using Cvat", "Improving performance on different themed-datasets through data augmentation"]],
+            ["AI", "Korean keywords extraction model - extraction from Naver News website using KeyBERT", "National Disaster Management Research Institute"],
             ["AI", "Proof of concepts (GNN, 3D volume prediction, Signal processing ...)"]
           ]
         }
@@ -31,9 +32,9 @@ export default function CV() {
         period="2022.07 ~ 2024.03" 
         content={
           [
-            ["Backend", "Android devices controling API", "ICR", ["Google's Android Management API used", "Java-written Android app maintenance", "Firebase Cloud Messaging used for push notification"]],
-            ["Backend", "Mobile data extraction API in NDFaas(National Diginal Forensic System)", "Supreme Prosecutors' Office", ["The biggest project participated yet(with more than 50 people involved)"]],
-            ["AI", "Job recommendation API maintenance in the national job matching service", "Korea Enployment Information Service", ["DeepFM model maintenance", "Data analysis to improve job matching metrics"]]
+            ["Backend", "MDM - Android devices controling API development", "ICR", ["AWS EC2, Gateway, etc. setup", "Google's Android Management API used", "Java-written Android app maintenance", "Firebase Cloud Messaging used for push notification"]],
+            ["Backend", "NDFaas(National Diginal Forensic System) - Mobile data extraction API development", "Supreme Prosecutors' Office", ["The biggest project participated yet(with more than 50 people involved)"]],
+            ["AI", "Recommender system - Job recommendation API maintenance in national recruitment service", "Korea Enployment Information Service", ["DeepFM model maintenance", "Data analysis to improve job matching metrics"]]
           ]
         }
         // skills={["java", "springboot"]}

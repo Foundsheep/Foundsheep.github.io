@@ -85,9 +85,16 @@ export default function CV() {
         }/>
 
       <Subtitle subtitle="Education & Military Service"></Subtitle>
+      <Experience
+        jobTitle=""
+        company="University of St Andrews (UK)"
+        period="2025.03 ~ Present"
+        content={[
+          ["", "MSc Data Science"]
+        ]}/>
       <Experience 
         jobTitle="" 
-        company="University of Westminster (London)" 
+        company="University of Westminster (UK)" 
         period="2012.09 ~ 2015.09" 
         content={[
             ["", "BA Television Production"],
@@ -108,13 +115,13 @@ export default function CV() {
         content={[
           ]
         }/>
-      <Experience 
+      {/* <Experience 
         jobTitle="" 
         company="Suji High School (Yongin)" 
         period="2006.03 ~ 2009.03" 
         content={[
           ]
-        }/>
+        }/> */}
     </section>
   </>
 }

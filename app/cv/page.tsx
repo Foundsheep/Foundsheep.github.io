@@ -1,14 +1,16 @@
 import ContactMe from "@/components/cv/contactme";
 import { Experience } from "@/components/cv/experience";
 import { Subtitle } from "@/components/cv/subtitle";
-import { Summary } from "@/components/cv/summary";
+import { SummaryIcons } from "@/components/cv/summary";
+import { IntroText } from "@/components/cv/introText";
 import Link from "next/link";
 
 export default function CV() {
     return <>
     <section className="w-full">
       <ContactMe />
-      <Summary />
+      <IntroText />
+      {/* <SummaryIcons /> */}
     </section>
     <section>
       <Subtitle subtitle="Experience"></Subtitle>
@@ -18,7 +20,7 @@ export default function CV() {
         period="2024.03 ~ Present" 
         content={
           [
-            ["AI", "Image Gen AI - conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "Web UI using Django"]],
+            ["AI", "Image Gen AI - conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "CFG implementation", "Web UI using Django"]],
             ["AI", "Semantic Segmentation - self-piercing rivet images", "Hyundai Motors", ["Data annotation using Cvat", "Improving performance on different themed-datasets through data augmentation"]],
             ["AI", "Korean keywords extraction model - extraction from Naver News website using KeyBERT", "National Disaster Management Research Institute"],
             ["AI", "Proof of concepts (GNN, 3D volume prediction, Signal processing ...)"]
@@ -32,7 +34,7 @@ export default function CV() {
         period="2022.07 ~ 2024.03" 
         content={
           [
-            ["Backend", "MDM - Android devices controling API development", "ICR", ["AWS EC2, Gateway, etc. setup", "Google's Android Management API used", "Java-written Android app maintenance", "Firebase Cloud Messaging used for push notification"]],
+            ["Backend", "MDM - Android devices controling API development", "ICR", ["AWS EC2, Gateway, etc. setup", "Google Android Management API based implementation", "Java-based Android app maintenance", "Firebase Cloud Messaging set up for push notification"]],
             ["Backend", "NDFaas(National Diginal Forensic System) - Mobile data extraction API development", "Supreme Prosecutors' Office", ["The biggest project participated yet(with more than 50 people involved)"]],
             ["AI", "Recommender system - Job recommendation API maintenance in national recruitment service", "Korea Enployment Information Service", ["DeepFM model maintenance", "Data analysis to improve job matching metrics"]]
           ]

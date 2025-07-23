@@ -7,7 +7,7 @@ export default function Philosophy() {
   const listStyle = "list-decimal list-inside"
   return <>
     <h4 className={headingStyle + ' mt-0'}>Introduction</h4>
-    <p className="mb-0">I belive what underlies every detail and behaviours execuded in everyone's work is what they <span className="italic">value</span>, <span className="italic">belive in</span> or have as <span className="italic">philosophies</span>, albeit not recognised. Therefore, you will be able to understand and could have expectations of how DJ would work and behave from the below statements</p>
+    <p className="mb-0">I belive what underlies every detail and behaviours executed in everyone's work is what they <span className="italic">value</span>, <span className="italic">belive in</span> or have as <span className="italic">philosophies</span>, albeit not recognised. Therefore, you will be able to understand how I would work by the below statements</p>
     
     <h4 className={headingStyle}>Those regarding 'dev'</h4>
     <ol className={listStyle}>
@@ -23,8 +23,8 @@ export default function Philosophy() {
     <h4 className={headingStyle}>Those regarding 'life'</h4>
     <ol className={listStyle}>
       <li>Be humble and remember the merciful Creator</li>
-      <li>Learn how to confront the real you. Otherwise the One you would think you had met would be in disguise too</li>
-      <li>Don't lose joy at all costs. Otherwise, your life would turn into a miserable loop without noticing it</li>
+      {/* <li>Learn how to confront the real you. Otherwise, the One you would think you had met would be in disguise too</li> */}
+      <li>Don't lose joy at all costs. Otherwise, your life would turn into a miserable loop</li>
       <li>The longer you live, the more you need to discard from your life to avoid being overwhelmed by it</li>
     </ol>
 

@@ -27,7 +27,7 @@ const SkillCategory = (
   </div>
 )
 
-export function Summary() {
+export function SummaryIcons() {
   const threeStars = ["python", "huggingface", "pytorch", "lightning", "docker", "fastapi", "flask"]
   const twoStars = ["java", "springboot", "django", "aws_ec2", "tensorflow", "matlab"]
   const oneStar = ["javascript", "typescript", "nextjs", "tailwindcss"]
@@ -39,12 +39,6 @@ export function Summary() {
       <SkillCategory stars={2} title="Pro, familar" skills={twoStars} />
       <SkillCategory stars={1} title="Hobby, interested" skills={oneStar} />
     </div>
-    <ul className="list-disc list-inside mt-10">
-      <li>Current MSc Data Science student at the University of St Andrews(<a className="text-rose-400" href="https://www.theguardian.com/education/ng-interactive/2024/sep/07/the-guardian-university-guide-2025-the-rankings" target="_blank">ranked No 2. in the UK</a>)</li>
-      <li>I love to work as a ML engineer, but I enjoy working on backend stuff as well</li>
-      <li>The reason I love ML is because of its strong relationship with maths</li>
-      <li>I'm eager to contribute to open-source projects, such as <a className="text-rose-400" href="https://huggingface.co/docs/diffusers/en/index" target="_blank">Huggingface Diffusers</a>, and have an experience of it in Hyundai Motors' project to adapt the diffusion model for its needs</li>
-    </ul>
 
   </>
 }

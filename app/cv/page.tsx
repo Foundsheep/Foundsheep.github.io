@@ -37,7 +37,7 @@ export default function CV() {
         content={
           [
             ["Backend", "MDM - Android devices controling API development", "ICR", ["AWS EC2, Gateway, etc. setup", "Google Android Management API based implementation", "Java-based Android app maintenance", "Firebase Cloud Messaging set up for push notification"]],
-            ["Backend", "NDFaas(National Diginal Forensic System) - Mobile data extraction API development", "Supreme Prosecutors' Office", ["The biggest project participated yet(with more than 50 people involved)"]],
+            ["Backend", "NDFaas(National Diginal Forensic System) - Mobile data extraction API development", "Korea Supreme Prosecutors' Office", ["Java used", "The biggest project participated yet(with more than 50 people involved)", "Understanding how the whole system is built and works"]],
             ["AI", "Recommender system - Job recommendation API maintenance in national recruitment service", "Korea Enployment Information Service", ["DeepFM model maintenance", "Data analysis to improve job matching metrics"]]
           ]
         }

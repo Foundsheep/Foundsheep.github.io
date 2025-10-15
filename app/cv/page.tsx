@@ -21,8 +21,10 @@ export default function CV() {
         content={
           [
             ["AI", "Image Gen AI - conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "CFG implementation", "Web UI using Django"]],
-            ["AI", "Semantic Segmentation - self-piercing rivet images", "Hyundai Motors", ["Data annotation using Cvat", "Improving performance on different themed-datasets through data augmentation"]],
-            ["AI", "Korean keywords extraction model - extraction from Naver News website using KeyBERT", "National Disaster Management Research Institute"],
+            ["AI", "Semantic Segmentation - self-piercing rivet images", "Hyundai Motors", ["Data annotation using Cvat", "Improve performance on different themed-datasets through data augmentation"]],
+            ["AI", "Regression - predicting nugget size from steel spot welding data", "Hyundai Motors", ["Data analysis & feature engineering", "Improve performance(R^2) from about 0.76 to 0.92 by collaboration with domain experts"]],
+            ["AI", "Binary Claissfication - predicting spatter from steel spot welding data", "Hyundai Motors", ["Improve performance(F1-score) from 0.65 to 0.80 by collaboration with domain experts"]],
+            ["AI", "Korean keywords extraction model - extraction from Naver News website using KeyBERT", "National Disaster Management Research Institute", ["API server development"]],
             ["AI", "Proof of concepts (GNN, 3D volume prediction, Signal processing ...)"]
           ]
         }
@@ -44,7 +46,7 @@ export default function CV() {
 
       {/* <Subtitle subtitle="Dev Bootcamp"></Subtitle> */}
       <Experience
-        jobTitle="Dev bootcamp"
+        jobTitle="National Funded AI Training Course"
         company="AIFFEL AI school"
         period="2021.12 ~ 2022.06"
         content={
@@ -59,25 +61,25 @@ export default function CV() {
 
       <Subtitle subtitle="Experience(non-dev)"></Subtitle>
       <Experience 
-        jobTitle="" 
+        jobTitle="SCM & E-commerce operator" 
         company="ThePlantEat" 
         period="2020.01 ~ 2021.09" 
         content={[
             ["", "Data-driven vegan food manufacturer"],
-            ["", "`Eat's Better` online shop management & SCM"]
+            ["", "SCM & `Eat's Better` online shop management"]
           ]
         }/>
       <Experience 
-        jobTitle="" 
+        jobTitle="SCM & Purchasing" 
         company="Tasty9" 
         period="2018.08 ~ 2019.08" 
         content={[
-          ["", "Korean ready-meal manufacturer"],
-          ["", "Purchasing management & SCM"]
+          ["", "Korean ready-meal products manufacturer"],
+          ["", "SCM & Purchasing management"]
         ]
         }/>
       <Experience 
-        jobTitle="" 
+        jobTitle="Jr. Account Executive" 
         company="EPPN" 
         period="2016.02 ~ 2016.08" 
         content={[

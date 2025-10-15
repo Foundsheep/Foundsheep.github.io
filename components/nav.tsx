@@ -45,7 +45,7 @@ export function NavBar() {
             height={30}
           />
         </Link>
-        <Link 
+        {/* <Link 
           href="https://huggingface.co/DJMOON" 
           target="_blank"
           onClick={() => sendGAEvent("event", "buttonClicked", { value: 'huggingface'})}
@@ -57,7 +57,7 @@ export function NavBar() {
             width={30}
             height={30}
           />
-        </Link>
+        </Link> */}
         {/* <Link 
           href="mailto:moondeokjong@gmail.com" 
         >

@@ -20,10 +20,10 @@ export default function CV() {
         period="2024.03 ~ Present" 
         content={
           [
-            ["AI", "Image Gen AI - conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "CFG implementation", "Web UI using Django"]],
-            ["AI", "Semantic Segmentation - self-piercing rivet images", "Hyundai Motors", ["Data annotation using Cvat", "Improved performance on different themed-datasets through data augmentation"]],
-            ["AI", "Regression - predicting nugget size from steel spot welding data", "Hyundai Motors", ["Data analysis & feature engineering", "Improved performance(R^2) from a baseline(0.76 -> 0.92) by collaboration with domain experts"]],
-            ["AI", "Binary Claissfication - predicting spatter from steel spot welding data", "Hyundai Motors", ["Improved performance(F1-score) from a baseline(0.65 -> 0.80) by collaboration with domain experts"]],
+            ["AI", "Image Gen AI - conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "Training from scratch in vast.ai", "Web UI using Django"]],
+            ["AI", "Semantic Segmentation - self-piercing rivet images", "Hyundai Motors", ["Data annotation using Cvat", "Data augmentation based performance improvement"]],
+            ["AI", "Regression - predicting nugget size from steel spot welding data", "Hyundai Motors", ["Improved performance(R^2) from a baseline(0.76 -> 0.92) by feature engineering"]],
+            ["AI", "Binary Claissfication - predicting spatter from steel spot welding data", "Hyundai Motors", ["Improved performance(F1-score) from a baseline(0.65 -> 0.80) by feature engineering"]],
             ["AI", "Korean keywords extraction model - extraction from Naver News website using KeyBERT", "National Disaster Management Research Institute", ["API server development"]],
             ["AI", "Proof of concepts (GNN, 3D volume prediction, Signal processing ...)"]
           ]
@@ -36,7 +36,7 @@ export default function CV() {
         period="2022.07 ~ 2024.03" 
         content={
           [
-            ["Backend", "MDM - Android devices controling API development", "ICR", ["AWS EC2, Gateway, etc. setup", "Google Android Management API based implementation", "Java-based Android app maintenance", "Firebase Cloud Messaging set up for push notification"]],
+            ["Backend", "MDM - Android devices controling API development", "ICR", ["AWS EC2, Gateway, etc. setup", "Google Android Management API based implementation", "Java-written Android app maintenance", "Firebase Cloud Messaging set up for push notification"]],
             ["Backend", "NDFaas(National Diginal Forensic System) - Mobile data extraction API development", "Korea Supreme Prosecutors' Office", ["Java used", "The biggest project participated yet(with more than 50 people involved)", "Gained understanding of how the whole system is built and works"]],
             ["AI", "Recommender system - Job recommendation API maintenance in national recruitment service", "Korea Enployment Information Service", ["DeepFM model maintenance", "Data analysis to improve job matching metrics"]]
           ]

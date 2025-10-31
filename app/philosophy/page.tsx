@@ -6,13 +6,12 @@ export default function Philosophy() {
   const listStyle = "list-decimal list-inside"
   return <>
     <h4 className={headingStyle + ' mt-0'}>Introduction</h4>
-    <p className="mb-0">I belive what underlies every detail and behaviour executed in everyone's work is what they <span className="italic">value</span>, or <span className="italic">belive in</span> like <span className="italic">philosophies</span>. Therefore, you will be able to understand how I would work by the below statements</p>
+    <p className="mb-0">I believe what underlies every detail and behaviour executed in everyone's work is what they <span className="italic">value</span>, or <span className="italic">believe in</span> like <span className="italic">philosophies</span>. Therefore, you will be able to understand how I would work by the below statements</p>
     
     <h4 className={headingStyle}>Those regarding 'dev'</h4>
     <ol className={listStyle}>
       <li><span className="italic">"The important thing is not to stop questioning; curiosity has its own reason for existing."</span> - Albert Einstein</li>
       <li>Keep things simple</li>
-      <li>Try to understand the underlying mathematics, but remember its intuition</li>
       <li>Always verify what the colleages say, who tend to go to GPT first and have long conversations with it</li>
       {/* <li>Not GPT first, but documentation first</li> */}
       <li>Not about speed, but direction</li>

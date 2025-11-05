@@ -99,7 +99,7 @@ export function Experience({jobTitle, company, period, content, skills}: Experie
           <div className="text-lg font-thin text-slate-500">{jobTitle}</div>
         </div>
       </div>
-      <div className="pt-1 pl-12 rounded-xl transition-all duration-75 hover:bg-inherit hover:shadow-md">
+      <div className="pt-1 pl-12 rounded-xl transition-all duration-500 hover:bg-inherit hover:shadow-md">
         {renderContent()}
         <div className="flex flex-wrap gap-2 mb-4">
           {skills?.map((skillKey) => (

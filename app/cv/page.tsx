@@ -17,7 +17,7 @@ export default function CV() {
       <Experience 
         jobTitle="ML Engineer" 
         company="CSI-Vision" 
-        period="2024.03 ~ Present" 
+        period="2024.03 ~ 2026.02" 
         content={
           [
             ["AI", "Image Gen AI - conditional self-piercing rivet image generation using Diffusion model", "Hyundai Motors", ["OOM management using pytorch.org/memory_viz", "Huggingface model customisation", "Training from scratch in vast.ai", "Web UI using Django"]],

@@ -12,8 +12,8 @@ export default function Philosophy() {
     <ol className={listStyle}>
       <li><span className="italic">"The important thing is not to stop questioning; curiosity has its own reason for existing."</span> - Albert Einstein</li>
       <li>Keep things simple</li>
-      <li>Always verify what the colleages say, who tend to go to GPT first and have long conversations with it</li>
-      {/* <li>Not GPT first, but documentation first</li> */}
+      {/* <li>Always verify what the colleages say, who tend to go to GPT first and have long conversations with it</li> */}
+      <li><span className="line-through">Not GPT first, but documentation first.</span> Actually, agents have developed significantly. So treat them as assistants with good knowledge on mainstream subjects</li>
       <li>Not about speed, but direction</li>
       <li>Try to understand the philosophy of tools and what's under the hood</li>
       {/* <li>No hassle to show off for career such as copied-and-pasted blogs.</li> */}

@@ -14,6 +14,19 @@ export default function CV() {
     </section>
     <section>
       <Subtitle subtitle="Experience"></Subtitle>
+      
+      <Experience 
+        jobTitle="ML Engineer(FDE)" 
+        company="MakinaRocks" 
+        period="2026.04 ~ Present" 
+        content={
+          [
+            ["AI", "Sintering process optimisation using FeO prediction and other guidance models", "Hyundai Steel", ["To Be Updated"]],
+          ]
+        }
+        // skills={["python", "pytorch", "lightning", "torchserve", "django", "huggingface"]}
+      />
+      
       <Experience 
         jobTitle="ML Engineer" 
         company="CSI-Vision" 
@@ -24,7 +37,7 @@ export default function CV() {
             ["AI", "Semantic Segmentation - self-piercing rivet images", "Hyundai Motors", ["Data annotation using Cvat", "Data augmentation based performance improvement"]],
             ["AI", "Regression - predicting nugget size from steel spot welding data", "Hyundai Motors", ["Improved performance(R^2) from a baseline(0.76 -> 0.92) by feature engineering"]],
             ["AI", "Binary Claissfication - predicting spatter from steel spot welding data", "Hyundai Motors", ["Improved performance(F1-score) from a baseline(0.65 -> 0.80) by feature engineering"]],
-            ["AI", "Korean keywords extraction model - extraction from Naver News website using KeyBERT", "National Disaster Management Research Institute", ["API server development"]],
+            // ["AI", "Korean keywords extraction model - extraction from Naver News website using KeyBERT", "National Disaster Management Research Institute", ["API server development"]],
             ["AI", "Proof of concepts (GNN, 3D volume prediction, Signal processing ...)"]
           ]
         }
